@@ -27,6 +27,8 @@ import {
 import insta from "../assets/insta.png";
 import what from "../assets/whats.png";
 import gmail from "../assets/gmail.png";
+import Doctors from "../assets/Doctors.png"
+
 
 export const navLinks = [
   {
@@ -190,22 +192,21 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      " Their passion for coding and dedication to excellence are truly inspiring. They approach every project with enthusiasm and a proactive mindset, consistently delivering high-quality results. Their ability to learn quickly and stay updated with the latest trends in technology sets them apart",
     name: "Sumeet ",
     designation: "CEO",
     company: "Enso Innovation Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      " A highly skilled full-stack developer with an exceptional grasp of data structures and algorithms. Their ability to solve complex problems and build efficient solutions is impressive. They are quick learners who adapt to new technologies effortlessly, making them an invaluable asset to any team",
     name: "Anzal hussain Abidi",
     designation: "SDE 2",
     company: "Zomato",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      " An outstanding professional with a knack for innovation and problem-solving. Their technical expertise is complemented by excellent collaboration skills. They are always eager to take on challenges, continuously improving their craft and contributing fresh ideas that drive projects forward",
     name: "Faizullah ",
     designation: "Devops enginner",
     company: "S&P Global",
@@ -214,10 +215,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Doctor Appointment",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
+    "Web-based platform enabling users to search, book, and manage doctor appointments seamlessly, offering a convenient and efficient solution for healthcare scheduling" ,   tags: [
       {
         name: "react",
         color: "blue-text-gradient",
@@ -231,8 +231,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: Doctors,
+    source_code_link: "https://appointmet.netlify.app/",
   },
   {
     name: "Job IT",
