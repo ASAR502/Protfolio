@@ -71,8 +71,8 @@ export const contactme = [
     image: gmail,
   },
   {
-    id: "what's app",
-    title: "what's app",
+    id: "whatsapp",
+    title: "whatsapp",
     image: what,
   },
 ];
